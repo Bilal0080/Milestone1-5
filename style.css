@@ -1,0 +1,81 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for sections */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    background-color: #0e8360;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    color: #68691b;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #4b2c18;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
